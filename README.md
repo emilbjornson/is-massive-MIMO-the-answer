@@ -3,7 +3,7 @@ Optimal Design of Energy-Efficient Multi-User MIMO Systems: Is Massive MIMO the 
 
 This is a code package is related to the follow scientific article:
 
-Emil Björnson, Luca Sanguinetti, Jakob Hoydis, Mérouane Debbah, “[Optimal Design of Energy-Efficient Multi-User MIMO Systems: Is Massive MIMO the Answer?}(http://arxiv.org/pdf/1403.6150),” Submitted to IEEE Transactions on Wireless Communications, March 2014.
+Emil Björnson, Luca Sanguinetti, Jakob Hoydis, Mérouane Debbah, “[Optimal Design of Energy-Efficient Multi-User MIMO Systems: Is Massive MIMO the Answer?](http://arxiv.org/pdf/1403.6150),” Submitted to IEEE Transactions on Wireless Communications, March 2014.
 
 The package contains a simulation environment, based on Matlab, that reproduces all the numerical results and figures in the article. *We encourage you to also perform reproducible research!*
 
