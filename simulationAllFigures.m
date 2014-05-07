@@ -413,7 +413,9 @@ if runSequentialAlgorithm == true
         
         %Step 2 in the sequential algorithm: Update M
         %This optimal M value follows directly from Eq. (48) in Theorem 2
-        Mopt = (exp(lambertw(alphaCurrentValue*(Bsigma2SxetaSinglecell*alphaCurrentValue+Cprim)/Dprim/exp(1) + (alphaCurrentValue*K_currentOptimal-1)/exp(1) )+1) + alphaCurrentValue*K_currentOptimal-1)/alphaCurrentValue;
+        CprimCurrentValue = (C_0 + C_1*K_currentOptimal + C_2*K_currentOptimal^2 + C_3_ZF*K_currentOptimal^3)/K_currentOptimal;
+        DprimCurrentValue = (D_0 + D_1_ZF*K_currentOptimal + D_2_ZF*K_currentOptimal^2)/K_currentOptimal;
+        Mopt = (exp(lambertw(alphaCurrentValue*(Bsigma2SxetaSinglecell*alphaCurrentValue+CprimCurrentValue)/DprimCurrentValue/exp(1) + (alphaCurrentValue*K_currentOptimal-1)/exp(1) )+1) + alphaCurrentValue*K_currentOptimal-1)/alphaCurrentValue;
         
         
         %Step 3 in the sequential algorithm: Update alpha
