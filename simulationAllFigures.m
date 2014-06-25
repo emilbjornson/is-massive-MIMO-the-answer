@@ -1,9 +1,9 @@
 %This Matlab script can be used to generate all the simulation figures in
 %the article:
 %
-%Emil Bj�rnson, Luca Sanguinetti, Jakob Hoydis, M�rouane Debbah, �Optimal
+%Emil Björnson, Luca Sanguinetti, Jakob Hoydis, Mérouane Debbah, "Optimal
 %Design of Energy-Efficient Multi-User MIMO Systems: Is Massive MIMO the
-%Answer?,� Submitted to IEEE Transactions on Wireless Communications, March
+%Answer?," Submitted to IEEE Transactions on Wireless Communications, March
 %2014.
 %
 %Download article: http://arxiv.org/pdf/1403.6150
