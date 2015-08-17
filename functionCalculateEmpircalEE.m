@@ -8,10 +8,10 @@ function EEvalue = functionCalculateEmpircalEE(SINR,Ddiag,Doffdiag,circuitpower,
 %
 %This function is used in the article:
 %
-%Emil Bjˆrnson, Luca Sanguinetti, Jakob Hoydis, MÈrouane Debbah, ìOptimal
+%Emil Bj√∂rnson, Luca Sanguinetti, Jakob Hoydis, M√©rouane Debbah, ‚ÄúOptimal
 %Design of Energy-Efficient Multi-User MIMO Systems: Is Massive MIMO the
-%Answer?,î Submitted to IEEE Transactions on Wireless Communications, March
-%2014.
+%Answer?,‚Äù IEEE Transactions on Wireless Communications, vol. 14, no. 6, 
+%pp. 3059-3075, June 2015.
 %
 %Download article:
 %
