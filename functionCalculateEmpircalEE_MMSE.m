@@ -8,10 +8,10 @@ function EEvalue = functionCalculateEmpircalEE_MMSE(SINR,Hchannel,circuitpower,A
 %
 %This function is used in the article:
 %
-%Emil Bjˆrnson, Luca Sanguinetti, Jakob Hoydis, MÈrouane Debbah, ìOptimal
+%Emil Bj√∂rnson, Luca Sanguinetti, Jakob Hoydis, M√©rouane Debbah, ‚ÄúOptimal
 %Design of Energy-Efficient Multi-User MIMO Systems: Is Massive MIMO the
-%Answer?,î Submitted to IEEE Transactions on Wireless Communications, March
-%2014.
+%Answer?,‚Äù IEEE Transactions on Wireless Communications, vol. 14, no. 6, 
+%pp. 3059-3075, June 2015. 
 %
 %Download article:
 %
@@ -62,7 +62,7 @@ for itr = 1:nbrOfMonteCarloRealizations
     %control algorithm from the following article:
     %
     %Farrokh Rashid-Farrokhi, K.J. Ray Liu, and Leandros Tassiulas,
-    %ìTransmit beamforming and power control for cellular wireless systems,î
+    %‚ÄúTransmit beamforming and power control for cellular wireless systems,‚Äù
     %IEEE J. Select. Areas Commun., vol. 16, no. 8, pp. 1437-1450, Oct. 1998.
     for m = 1:Q-1
         
